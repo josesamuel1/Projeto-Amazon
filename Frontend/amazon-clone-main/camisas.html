@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque Center</title>
+
+    <!--css file-->
+    <link rel="stylesheet" href="style.css" />
+    
+    
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-header">
+            <div class="logo-container border-white">
+                <h1>Central Marcas</h1>
+            </div>
+
+           
+
+            <div class="search-container">
+                <select class="search-select">
+                    <option>Tudo</option>
+                </select>
+                <input type="text" class="search-input" />
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+            </div>
+
+            <div class="language-container border-white">
+               
+            </div>
+
+        
+            <div class="cart-container border-white">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="Carrinho.html" class="link-carrinho">carrinho</a>
+            </div>
+        </div>
+    </header>
+
+    <!--navigation-->
+    <nav class="nav">
+        <div class="container container-nav">
+            <ul>
+                <li class="border-white" id="open-nav-sidebar">
+                    <span class="open-nav-slider">
+                        <i class="fa-solid fa-bars"></i>
+                        Tudo
+                    </span>
+                </li> 
+                <li class="border-white"><a href="home.html">home</a></li>
+                <li class="border-white"><a href="camisas.html">Camisas</a></li>
+                <li class="border-white"><a href="calcas.html">Calças</a></li>
+                <li class="border-white"><a href="shorts.html">Bermudas</a></li>
+                <li class="border-white"><a href="moletons.html">Moletons</a></li>
+                
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <!--sidebar navigation-->
+    <div class="sidebar-container-navigation" id="sidebar-container-navigation-id">
+        <div class="sidebar-left-part">
+            <div class="sidebar-top">
+                
+                <h2>Tudo</span></h2>
+            </div>
+            <div class="sidebar-wrap">
+                <div class="sidebar-item">
+                    <h2>Camisas</h2>
+                    <p>Polo</p>
+                    <p>Basicas</p>
+                    <p>Gola V</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Shorts</h2>
+                    <p>Linho</p>
+                    <p>Cargo</p>
+                   
+                </div>
+                <div class="sidebar-item">
+                    <h2>Calças</h2>
+                    <p>Moleton</p>
+                    <p>Jeans</p>
+                    <p>Esporte fino</p>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <button id="sidebar-navigation-close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+
+
+
+    <!--image slider -->
+    <section>
+        <div class="image-container">
+            <div class="image-list">
+                <div class="image-item">
+                    <img src="imagens/1.png" />
+                </div>
+                <div class="image-item">
+                    <img src="imagens/2.png" />
+                </div>
+                <div class="image-item">
+                    <img src="imagens/3.png" />
+                </div>
+                <div class="image-item">
+                    <img src="imagens/1.png" />
+                </div>
+                <div class="image-item">
+                    <img src="imagens/2.png" />
+                </div>
+                <div class="image-item">
+                    <img src="imagens/3.png" />
+                </div>
+                
+            </div>
+
+            <div class="image-btn-container">
+
+                <button class="slider-btn" id="slide-btn-left"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="slider-btn" id="slide-btn-right"><i class="fa-solid fa-chevron-right"></i></i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <main class="main">
+      <div id="Projects">
+      
+          <!-- Product card 1 -->
+          <div class="product-card">
+              <img src="https://photos.enjoei.com.br/camiseta-diesel/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8zNzA0Mi81ZjI2ZjUyZDMwOTRkYzI1ZjBlZGI0YmQ0NWQ2OGE2MC5qcGc" alt="Product" class="product-image">
+              <div class="product-details">
+                  <span class="product-category">Camisa básica</span>
+                  <p class="product-name">Diesel</p>
+                  <a href="#" class="add-to-cart-btn">R$ 935</a>
+              </div>
+          </div>
+          <!-- Product card 2 -->
+          <div class="product-card">
+              <img src="https://www.80scasualclassics.co.uk/images/lacoste-polo-shirt-orange-p13349-77772_image.jpg" alt="Product" class="product-image">
+              <div class="product-details">
+                  <span class="product-category">Camisa Polo</span>
+                  <p class="product-name">Lacoste</p>
+                  <a href="#" class="add-to-cart-btn">R$ 549</a>
+              </div>
+          </div>
+          <!-- Product card 3 -->
+          <div class="product-card">
+              <img src="https://assets.laboutiqueofficielle.com/w_1100,q_auto,f_auto/media/products/2021/03/18/ea7-emporio-armani_258322_3KPT39-PJ02Z_1100_20210326T152322_01.jpg" alt="Product" class="product-image">
+              <div class="product-details">
+                  <span class="product-category">Camisa Básica</span>
+                  <p class="product-name">Armani</p>
+                  <a href="#" class="add-to-cart-btn">R$ 149</a>
+              </div>
+          </div>
+          <!-- Product card 5 -->
+          <div class="product-card">
+              <img src="https://img.giglio.com/images/prodZoom/316390.022_1.jpg" alt="Product" class="product-image">
+              <div class="product-details">
+                  <span class="product-category">Camisa Longa botão</span>
+                  <p class="product-name"> Half Lauren</p>
+                  <a href="#" class="add-to-cart-btn">R$ 149</a>
+              </div>
+          </div>
+          <!-- Product card 4 -->
+          <div class="product-card">
+              <img src="https://assets.laboutiqueofficielle.com/w_1100,q_auto,f_auto/media/products/2020/06/03/calvin-klein_221579_J30J314551_0K5_20200610T094536_03.jpg" alt="Product" class="product-image">
+              <div class="product-details">
+                  <span class="product-category">Camisa Básica</span>
+                  <p class="product-name">Calvin Klein</p>
+                  <a href="amostra.html" class="add-to-cart-btn">R$ 149</a>
+              </div>
+          </div>
+  
+      </div>
+  </main>
+  
+
+
+
+
+<!--contato, fundo do site-->
+
+
+<section class="Contato" id="Contato">
+    <div class="meio-contato">
+        <h3>Classix</h3>
+        <h5>Nos envie uma mensagem</h5>
+        <p>
+            (83) 99194-3005
+        </p>
+        <div class="icons">
+            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </div>
+
+    <div class="meio-contato">
+        <h3>Explorar</h3>
+        <li><a href="#home">Principal</a></li>
+        <li><a href="#featured">Destaque</a></li>
+        <li><a href="#new">Novo</a></li>
+        <li><a href="#contact">Contato</a></li>
+    </div>
+
+    <div class="meio-contato">
+        <h3>Nossos Serviços</h3>
+        <li><a href="#">Preços</a></li>
+        <li><a href="#">Frete Grátis</a></li>
+        <li><a href="#">Cartões de Presente</a></li>
+    </div>
+
+    <div class="meio-contato">
+        <h3>Compras</h3>
+        <li><a href="#">Loja de Roupas</a></li>
+        <li><a href="#">Calçados em Tendência</a></li>
+        <li><a href="#">Acessórios</a></li>
+        <li><a href="#">Ofertas</a></li>
+    </div>
+</section>
+
+
+
+
+
+
+<div class="last-text">
+    <p>@2024 Lucas Clark & José Samuel</p>
+</div>
+
+
+  
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    
+
+
+
+
+
+
+
+    <script src="javascript.js" type="module"></script>
+</body>
+
+</html>

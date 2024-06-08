@@ -1,0 +1,56 @@
+/* CSS do Footer */
+/* Footer */
+.footer {
+    /* border: 1px solid red; */
+    background-color: rgb(30, 30, 30);
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #BBB;
+}
+
+.container {
+    /* border: 1px solid blue; */
+    padding: .75em;
+    width: 20vw;
+    height: 30vh;
+}
+
+.container .icons {
+    display: flex;
+}
+
+.container .icons a {
+    padding-right: 20px;
+}
+
+.container img {
+    width: 36px;
+}
+
+.last_text {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* Media queries para telas menores */
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .container {
+        width: 80vw;
+    }
+  
+    .container .icons a {
+        padding-right: 10px;
+    }
+}

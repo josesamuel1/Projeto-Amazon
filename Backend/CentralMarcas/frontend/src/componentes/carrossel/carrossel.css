@@ -1,0 +1,22 @@
+/* CSS do Carrossel */
+.image_container {
+    position: relative;
+    z-index: -1;
+}
+
+.image_list {
+    display: flex;
+    overflow: hidden;
+}
+
+.image_item {
+    min-width: 100vw;
+    height: 600px;
+    transition: transform 0.5s;
+}
+
+.image_item img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}

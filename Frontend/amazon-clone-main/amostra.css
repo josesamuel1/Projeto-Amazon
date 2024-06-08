@@ -1,0 +1,83 @@
+.cart-body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para os detalhes do produto */
+  .product-details {
+    font-family: sans-serif;
+    position: center;
+    background-color: #fff;
+    width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Adicionando propriedades para centralizar o contêiner */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  /* Estilos para o container da imagem do produto */
+  .product-image-container {
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Estilos para a imagem do produto */
+  .product-image {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Estilos para a descrição do produto */
+  .product-description {
+    margin-top: 20px;
+  }
+
+.product-description h1 {
+    text-align: center; /* Centraliza o texto */
+    margin: 0 auto 20px; /* Define margens para centralizar verticalmente e adicionar margem inferior */
+    width: fit-content; /* Ajusta a largura do elemento ao conteúdo */
+}
+  
+  .product-description h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .product-description p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para o preço do produto */
+  .product-price {
+    font-size: 18px;
+    font-weight:bolder;
+    color: #035e00; /* Cor do preço */
+  }
+  
+  /* Estilos para o botão "Adicionar ao Carrinho" */
+  .add-to-cart-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ff6600; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #e68414; /* Cor de fundo do botão ao passar o mouse */
+  }

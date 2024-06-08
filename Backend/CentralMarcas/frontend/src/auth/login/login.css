@@ -1,0 +1,88 @@
+.margin_zero {
+    margin: 0;
+}
+
+.login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0c25;
+    height: 100vh;
+    color: #fff;
+}
+
+.login .container {
+    padding-top: 3em;
+    border-radius: 15px;
+    background-color: #1e1e1e;
+    width: 400px;
+    height: 400px;
+}
+
+.box {
+    margin-top: 2em;
+}
+  
+.box img {
+    width: 115px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+    color: #FF7600;
+}
+
+.login_title {
+    color: #FAFAFA;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.email input {
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+}
+  
+.password input {
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+    margin-top: 15px;
+}
+
+.sign_in a {
+    color: #fff;
+}
+
+.sign_in button {  
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF7600;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.input::placeholder {
+    color: #b6b6b6;
+}
+
+.input:focus {
+    outline: none;
+}

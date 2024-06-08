@@ -1,0 +1,127 @@
+/* Estilos para o contêiner do carrinho */
+.container-normal-section{
+  margin-top: 30px;
+}
+
+.cart-product-title {
+  font-size: 16px;
+  font-weight:bolder; /* Fonte normal para o título */
+}
+
+.section-title {
+  font-weight: bolder; /* Corrige a propriedade para font-weight */
+  color: #fff;
+  background-color: #ff6600;
+  padding: 8px 300px; /* Adiciona um espaçamento interno */
+  border-radius: 5px; /* Deixa os cantos arredondados */
+}
+
+/* Estilo para o preço do produto no carrinho */
+.cart-product-price {
+  font-size: 16px;
+  font-weight: bold; /* Fonte bold para o preço */
+  color: #3d3d3d; /* Cor do texto para o preço */
+}
+
+.cart-total-container{
+  font-weight: bold;
+}
+
+
+.cart-container {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  max-width: 800px; /* Largura máxima do card */
+  margin: 0 auto; /* Margens automáticas para centralizar na página */
+  padding: 20px; /* Adiciona um espaçamento interno */
+  border-radius: 10px; /* Borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  background-color: #fff; /* Cor de fundo branca */
+}
+
+/* Estilos para cada item do carrinho */
+.cart-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+/* Estilos para a imagem do item */
+.cart-item-image img {
+  width: 150px; /* Ajusta a largura da imagem */
+  height: auto;
+  border-radius: 10px; /* Define o raio da borda */
+  margin-top: auto;
+}
+
+/* Estilos para os detalhes do item */
+.cart-item-details {
+  flex: 1;
+}
+
+/* Estilos para as ações do item */
+.cart-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Estilos para o contêiner do total */
+.cart-total-container {
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Estilos para o botão de compra */
+.purchase-button {
+  margin-top: 20px;
+  padding: 15px 30px; /* Ajusta o padding */
+  font-size: 18px; /* Ajusta o tamanho da fonte */
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.purchase-button:hover {
+  background-color: #e68414;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o input de quantidade do produto */
+.product-qtd-input {
+  width: 50px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para o botão de remover produto */
+.remove-product-button {
+  background-color: #ff6347; /* Cor de fundo do botão */
+  color: white; /* Cor do texto */
+  border: none; /* Remove a borda padrão */
+  padding: 10px 15px; /* Espaçamento interno do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove a sublinhado do texto */
+  display: inline-block; /* Exibe o botão em linha */
+  font-size: 14px; /* Tamanho da fonte */
+  border-radius: 4px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+
+/* Efeito hover para o botão de remover produto */
+.remove-product-button:hover {
+  background-color: #ff4500; /* Cor de fundo ao passar o mouse */
+}

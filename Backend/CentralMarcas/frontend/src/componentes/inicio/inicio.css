@@ -1,0 +1,5 @@
+/* CSS para zerar todos os espaços de um layout */
+
+.margin_zero {
+    margin: 0;
+}

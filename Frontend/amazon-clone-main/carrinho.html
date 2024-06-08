@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque Center</title>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    
+       
+    
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-header">
+            <div class="logo-container border-white">
+                <h1>Central Marcas</h1>
+            </div>
+
+            <div class="search-container">
+                <select class="search-select">
+                    <option>Tudo</option>
+                </select>
+                <input type="text" class="search-input" />
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container container-nav">
+            <ul>
+                <li class="border-white" id="open-nav-sidebar">
+                    
+                  <li class="border-white"><a href="home.html">home</a></li>
+                <li class="border-white"><a href="camisas.html">Camisas</a></li>
+                <li class="border-white"><a href="calcas.html">Calças</a></li>
+                <li class="border-white"><a href="shorts.html">Bermudas</a></li>
+                <li class="border-white"><a href="moletons.html">Moletons</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar Navigation -->
+    <div class="sidebar-container-navigation" id="sidebar-container-navigation-id">
+        <div class="sidebar-left-part">
+            <div class="sidebar-top">
+                <h2>Tudo</h2>
+            </div>
+            <div class="sidebar-wrap">
+                <div class="sidebar-item">
+                    <h2>Camisas</h2>
+                    <p>Polo</p>
+                    <p>Basicas</p>
+                    <p>Gola V</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Shorts</h2>
+                    <p>Linho</p>
+                    <p>Cargo</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Calças</h2>
+                    <p>Moleton</p>
+                    <p>Jeans</p>
+                    <p>Esporte fino</p>
+                </div>
+            </div>
+        </div>
+        <button id="sidebar-navigation-close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+    <section class="container-normal-section">
+      <div class="cart-container">
+        <h2 class="section-title">Carrinho</h2>
+        <div class="cart-items">
+          <!-- Itens do carrinho -->
+          <div class="cart-item">
+            <div class="cart-item-image">
+              <img src="https://assets.laboutiqueofficielle.com/w_1100,q_auto,f_auto/media/products/2020/06/03/calvin-klein_221579_J30J314551_0K5_20200610T094536_03.jpg" alt="Miniatura" class="cart-product-image">
+            </div>
+            <div class="cart-item-details">
+              <strong class="cart-product-title">Miniatura</strong>
+              <span class="cart-product-price">R$69,90</span>
+              <div class="cart-item-actions">
+                <input type="number" value="2" min="0" class="product-qtd-input">
+                <button type="button" class="remove-product-button">Remover</button>
+              </div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <div class="cart-item-image">
+              <img src="https://img.giglio.com/images/prodZoom/316390.022_1.jpg" alt="Poster 3" class="cart-product-image">
+            </div>
+            <div class="cart-item-details">
+              <strong class="cart-product-title">Poster 3</strong>
+              <span class="cart-product-price">R$19,99</span>
+              <div class="cart-item-actions">
+                <input type="number" value="1" min="0" class="product-qtd-input">
+                <button type="button" class="remove-product-button">Remover</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-total-container">
+          <strong>Total</strong>
+          <span>R$89,89</span>
+        </div>
+        <button type="button" class="purchase-button">Finalizar Compra</button>
+      </div>
+    </section>
+    
+  
+   
+    <script src="javascript.js" type="module"></script>
+</body>
+</html>
+
